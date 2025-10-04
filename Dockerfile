@@ -1,5 +1,4 @@
 FROM ruby:3.2.2
-MAINTAINER contact@sleede.com
 
 # First we need to be able to fetch from https repositories
 RUN apt-get update && \
